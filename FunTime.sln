@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunTime", "FunTime\FunTime.csproj", "{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
