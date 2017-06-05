@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<style name="MyTheme.Base" parent="Base.Theme.MyTheme">
+	</style>
+
+    <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#800080</item>
+        <item name="colorPrimaryDark">#66015d</item>
+        <item name="colorAccent">#07aff2</item>
+    </style>
+
+	<style name="Widget.CardContent" parent="android:Widget">
+		<item name="android:paddingLeft">16dp</item>
+		<item name="android:paddingRight">16dp</item>
+		<item name="android:paddingTop">24dp</item>
+		<item name="android:paddingBottom">124dp</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="MyTheme.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+	<style name="MyTheme.base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
