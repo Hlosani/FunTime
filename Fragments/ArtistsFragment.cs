@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -16,24 +17,24 @@ namespace FunTime.Fragments
 {
 	public class ArtistsFragment : SupportFragment
     {
-	      private ListView lv;
-	      private String[] artists = { "Cassper Nyovest", "Nasty_C", "Tira", "Lira" };
-	      private ArrayAdapter adapter;
+		private Android.Widget.ListView lv;
+		private String[] artists = { "Cassper Nyovest", "Nasty C", "Emtee", "Lira", "Babes Wodumo", "Tira" };
+        private Android.Widget.ArrayAdapter adapter;
 
-	      public override Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-	      {
-		       View rootView = inflater.Inflate(Resource.Layout.day_layout, container, false);
+		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+		{
+			View rootView = inflater.Inflate(Resource.Layout.artists_layout, container, false);
 
-			   lv = rootView.FindViewById<ListView>(Resource.Id.artistlistView);
+			lv = rootView.FindViewById<Android.Widget.ListView>(Resource.Id.artistlistView);
 
-			adapter = new ArrayAdapter(this.Activity, Android.Resource.Layout.SimpleListItem1, artists);
+			adapter = new Android.Widget.ArrayAdapter(this.Activity,Android.Resource.Layout.SimpleListItem1, artists);
 
-		       lv.Adapter = adapter;
-			 
-		       lv.ItemClick += lv_itemClick;
+			lv.Adapter = adapter;
 
-		       return rootView;
-	      }
+			lv.ItemClick += lv_itemClick;
+
+			return rootView;
+		}
 
 	      void lv_itemClick(object sender, AdapterView.ItemClickEventArgs e)
 	      {

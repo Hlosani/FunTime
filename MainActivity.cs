@@ -40,7 +40,7 @@ namespace FunTime
 			SetSupportActionBar(toolBar);
 
 			SupportActionBar ab = SupportActionBar;
-			ab.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
+			ab.SetHomeAsUpIndicator(Resource.Drawable.ic_dehaze);
 			ab.SetDisplayHomeAsUpEnabled(true);
 
 			mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
@@ -66,7 +66,7 @@ namespace FunTime
 				View anchor = o as View;
 
 				Snackbar.Make(anchor, "Hlosani's First App", Snackbar.LengthLong)
-						.SetAction("Action", v =>
+						.SetAction("What's HOT", v =>
 				        {
 					     //intent
 				        })

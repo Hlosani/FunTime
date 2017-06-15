@@ -12,9 +12,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Username"
+        android:text="Hlosani"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#000"
+        android:textColor="#07aff2"
         android:layout_gravity="bottom|center"
         android:gravity="bottom|center" />
 </FrameLayout>

@@ -94,6 +94,8 @@
     <Compile Include="Fragments\ArtistsFragment.cs" />
     <Compile Include="Fragments\DayFragment.cs" />
     <Compile Include="Fragments\NightFragment.cs" />
+    <Compile Include="Fragments\ArrayAdapter.cs" />
+    <Compile Include="Fragments\ListView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -119,8 +121,12 @@
     <AndroidResource Include="Resources\layout\nav_header.axml" />
     <AndroidResource Include="Resources\menu\drawer_view.axml" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
-    <AndroidResource Include="Resources\drawable\ic_menu.png" />
-    <AndroidResource Include="Resources\drawable\ic_check.png" />
+    <AndroidResource Include="Resources\drawable\ic_dehaze.png" />
+    <AndroidResource Include="Resources\drawable\ic_whatshot.png" />
+    <AndroidResource Include="Resources\drawable\ic_home.png" />
+    <AndroidResource Include="Resources\drawable\ic_message.png" />
+    <AndroidResource Include="Resources\drawable\ic_people.png" />
+    <AndroidResource Include="Resources\drawable\ic_forum.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

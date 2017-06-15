@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B6048F21-6ABE-4DD1-83FF-BE9E3FBD5EFF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FunTime/NightPlacesData.cs">
+    <Files>
+      <File FileName="FunTime/NightPlacesData.cs" Line="1" Column="1" />
+      <File FileName="FunTime/NightPlaces.cs" Line="6" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FunTime AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5_API_24" />
+</Properties>
